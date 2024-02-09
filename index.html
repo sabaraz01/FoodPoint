@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    .newslatsub {
+      background-image: url('newslat1.jpeg');
+      /* Replace with the path to your background image */
+      background-size: cover;
+      background-position: center;
+      height: 250px;
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 15px;
+      opacity: 3px;
+    }
+  </style>
+
+  <title>FoodPoint</title>
+</head>
+<div>
+  <nav style="background: #E9E9F4" class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a style="color: red" class="fw-bold navbar-brand" href="#">FoodPoint</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#aboutus">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Careers">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#faqsec">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="tel:+91 9546138163:">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<div style="background: #E9E9F4" class="herosection d-flex flex-row">
+  <div class="hero-txt d-flex flex-column justify-content-center align-items-start p-3">
+    <h1 class="fw-bold fs-1">Good food, good mood</h1>
+    <p class=" fs-4">Food is the ultimate therapy</p>
+    <p>Food is not just sustenance; it's a symphony of flavors that dance on the palate, creating moments of pure delight.</p>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-danger mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Book A Table</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Book Your Table</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container my-3">
+              <form>
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone:</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                  <label for="date">Date:</label>
+                  <input type="date" class="form-control" id="date" required>
+                </div>
+                <div class="form-group">
+                  <label for="time">Time:</label>
+                  <input type="time" class="form-control" id="time" required>
+                </div>
+                <div class="form-group">
+                  <label for="comments">Leave a Message:</label>
+                  <textarea class="form-control" name="comments" rows="4" placeholder="Type your Message "></textarea>
+                </div>
+              </form>
+            </div>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-primary">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="hero-img">
+    <img class="img-fluid" src="heroimg.svg" alt="heroimg.svg">
+
+  </div>
+</div>
+
+<div class="card-1 p-3 my-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col ">
+      <div class="card h-100 d-flex flex-row justify-content-around align-items-center">
+
+        <div class="card-body">
+          <div class="d-flex flex-row justify-content-around align-items-center">
+            <i class="fa-solid fa-percent fa-3x"></i>
+            <h5 class="card-title fw-bold">Best Offer In Town!</h5>
+          </div>
+          <p class="card-text mt-3">Savor savings, indulge in flavor – our offer makes dining simply delightful</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card h-100 d-flex flex-row justify-content-around align-items-center">
+
+        <div class="card-body">
+          <div class="d-flex flex-row justify-content-around align-items-center">
+            <i class="fa-solid fa-motorcycle fa-3x"></i>
+            <h5 class="card-title fw-bold">Fastest Delivery</h5>
+          </div>
+          <p class="card-text mt-3">Swift, seamless, and satisfying – our fastest delivery ensures your cravings are met promptly at your doorstep</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card h-100 d-flex flex-row justify-content-around align-items-center">
+
+        <div class="card-body">
+          <div class="d-flex flex-row justify-content-around align-items-center">
+            <i class="fa-solid fa-utensils fa-3x"></i>
+            <h5 class="card-title fw-bold">Pure and hygienic food</h5>
+          </div>
+          <p class="card-text mt-3">Relish a bite of perfection – our food is not just a taste, but a commitment to pure, hygienic excellence.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="herosection-2 d-flex flex-row mx-3 mt-5">
+  <div class="hero-img h-auto w-50">
+    <img class="img-fluid" src="heroimg2.png" alt="heroimg.svg">
+  </div>
+
+  <div class="hero-txt d-flex flex-column justify-content-center align-items-start p-5">
+    <p class="text-warning fw-bold">Our popular Restaurant</p>
+    <h1 class="fw-bold fs-1">1000+</h1>
+    <h3>Our Delicious Food</h3>
+    <p>Seductively plated, each dish is a visual masterpiece, beckoning with irresistible allure before the first tempting taste</p>
+  </div>
+</div>
+<div id="blogsec" class="blogsec">
+  <h1 class="text-center fw-bold mt-5">Our Top Food </h1>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active p-5">
+
+        <div class="card-group">
+          <div class="card p-2">
+            <img src="cardimg1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Pizza</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Burger King</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Paneer Samosa</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card p-2">
+            <img src="cardimg4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Indian Thali</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Indian Thali</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Indian Thali</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+      <div class="carousel-item p-5">
+
+        <div class="card-group">
+          <div class="card p-2">
+            <img src="cardimg7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Gulab Jamun</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Birthday Cake</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg9.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Chhole Bhature</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card p-2">
+            <img src="cardimg10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Lassi</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg11.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Rasgulla</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg12.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Biryani</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="carousel-item p-5">
+
+        <div class="card-group">
+          <div class="card p-2">
+            <img src="cardimg13.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Paneer Samosa</h5>
+              <p class="card-text"> Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg14.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Chicken Biryani</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg15.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Samosa</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card p-2">
+            <img src="cardimg16.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Chicken Fry</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg17.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Jalebi</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+
+          </div>
+          <div class="card p-2">
+            <img src="cardimg18.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Coffee Hot</h5>
+              <p class="card-text">Purnea Bihar India</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+</div>
+
+
+<div style="background: #f2fcff" class="ordersec d-flex flex-row justify-content-center align-items-between">
+
+  <div class="hero-txt d-flex flex-column justify-content-center align-items-center">
+    <p style="color: red" class="fw-bold">20% off in your first order</p>
+
+    <div class="container mt-1">
+      <h2 class="text-center">Book Now</h2>
+      <form action="process_booking.php" method="post">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" name="name" placeholder="Enter your name" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="phone">Phone:</label>
+              <input type="tel" class="form-control" name="phone" placeholder="Enter your phone number" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="guests">Number of Guests:</label>
+              <input type="number" class="form-control" name="guests" min="1" required>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="date">Preferred Date:</label>
+              <input type="date" class="form-control" name="date" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="time">Preferred Time:</label>
+              <input type="time" class="form-control" name="time" required>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="hero-img h-auto w-50">
+    <img class="img-fluid" src="ordersec1.png" alt="ordersec1.png">
+  </div>
+</div>
+
+<div id="faqsec" class="faq p-5">
+  <div class="container mt-5">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="accordion" id="faqAccordion">
+      <!-- FAQ 1 -->
+      <div class="card">
+        <div class="card-header" id="faqHeading1">
+          <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+              Q: How can I make a reservation?
+            </button>
+          </h5>
+        </div>
+
+        <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+          <div class="card-body">
+            Ans: You can make a reservation by using our online booking form on the website or by calling our reservation hotline at +91 9546138163.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="card">
+        <div class="card-header" id="faqHeading2">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+              Q: What are your operating hours?
+            </button>
+          </h5>
+        </div>
+        <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+          <div class="card-body">
+            Ans: Our restaurant is open from 10am to 9am to every day of the week. Please check our website for any special holiday hours.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="card">
+        <div class="card-header" id="faqHeading3">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+              Q: Do you offer vegetarian options?
+            </button>
+          </h5>
+        </div>
+        <div id="faqCollapse3" class="collapse" aria-labelledby="faqHeading3" data-parent="#faqAccordion">
+          <div class="card-body">
+            Ans: Yes, we have a variety of delicious vegetarian options on our menu. Our chefs are dedicated to providing diverse choices for all dietary preferences.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="card">
+        <div class="card-header" id="faqHeading4">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+              Q: Is there parking available at the restaurant?
+            </button>
+          </h5>
+        </div>
+        <div id="faqCollapse4" class="collapse" aria-labelledby="faqHeading4" data-parent="#faqAccordion">
+          <div class="card-body">
+            Ans: Yes, we provide parking facilities for our customers. There is ample parking space available near the restaurant premises.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="card">
+        <div class="card-header" id="faqHeading5">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+              Q: Can I modify or cancel my reservation?
+            </button>
+          </h5>
+        </div>
+        <div id="faqCollapse5" class="collapse" aria-labelledby="faqHeading5" data-parent="#faqAccordion">
+          <div class="card-body">
+            Ans: Yes, you can modify or cancel your reservation by contacting our reservation hotline at +91 9546138163. Please notify us as early as possible for any changes.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="apdownlodsec my-5">
+  <div class="ordersec d-flex flex-row justify-content-center align-items-between p-5">
+
+    <div class="hero-txt d-flex flex-column justify-content-center align-items-center">
+      <p style="color: red" class="fw-bold">Get To Easily Find Best Food</p>
+
+      <div class="container mt-1">
+        <h2 class="text-center fs-1 fw-bold">Download The FoodPoint App</h2>
+        <p class="text-center">Download our app and order Food Online</p>
+        <div class="downlogo d-flex flex-row h-50 w-50 p-4">
+          <img class="img-fluid p-2" src="apdownlogo2.png" alt="">
+          <img class="img-fluid p-2" src="apdownlogo1.png" alt="">
+
+        </div>
+      </div>
+    </div>
+    <div class="hero-img h-50 w-50">
+      <img class="img-fluid" src="appdown.png" alt="appdown.png">
+    </div>
+  </div>
+
+</div>
+
+<div id="aboutus" class="about us p-5">
+  <h1 class="fw-bold text-center">Who We Are</h1>
+  <p>Welcome to FoodPoint At FoodPoint, we believe that every meal should be a delightful experience, a moment to savor the flavors of exceptional cuisine. Nestled in the heart of Purnea Bihar, our restaurant is a culinary haven where passion meets perfection. </p>
+  <h5 class="fw-bold text-center" id="">Our Story</h5>
+  <p>Founded in 2024, FoodPoint has been a culinary destination for food enthusiasts seeking a blend of Indian excellence. Our journey began with a simple yet profound vision - to create a space where every dish tells a story, where innovation meets tradition.</p>
+  <h5 class="fw-bold text-center">Culinary Expertise</h5>
+  <p>Led by our talented chefs, each dish on our menu is a masterpiece, crafted with precision and infused with the finest ingredients. From the sizzling grills to the aromatic spices, every element is carefully curated to take your taste buds on a gastronomic journey.</p>
+
+  <h5 class="fw-bold text-center">Locally Sourced, Globally Inspired</h5>
+  <p>We take pride in sourcing our ingredients locally to support our community while drawing inspiration from global culinary traditions. The result? A menu that reflects the best of both worlds, offering a diverse range of flavors to satisfy every palate.</p>
+  <h5 class="fw-bold text-center">Warm Hospitality</h5>
+  <p>Step into our inviting ambiance, where hospitality is not just a service but a heartfelt gesture. Our team is dedicated to ensuring your dining experience is not only delicious but also memorable. Whether you're here for a casual meal or a celebration, expect genuine warmth at every turn.</p>
+  <h5 class="fw-bold text-center">Commitment to Quality</h5>
+  <p>Quality is the cornerstone of our culinary philosophy. From the first chop to the final presentation, we uphold the highest standards to bring you dishes that redefine excellence. It's a commitment that has earned us the trust and loyalty of our valued patrons.
+
+    At FoodPoint, we invite you to join us in celebrating the art of dining. Indulge in a culinary voyage that transcends ordinary, and savor moments that linger on your palate and in your memory.
+
+    Thank you for choosing FoodPoint. We look forward to serving you.</p>
+
+</div>
+
+<div class="newslatsub mt-5">
+  <div class="containerform d-flex flex-column justify-content-center align-items-center">
+    <div class="txtsub text-light">
+
+      <h2 class="fw-bold text-center">Subscribe Us</h2>
+      <p class="fw-bold">Subscribe to our newsletter to receive updates and special offers.</p>
+
+    </div>
+    <div class="d-flex flex-row">
+
+      <form action="#" method="post" class="form-inline">
+        <div class="form-group mx-sm-3">
+          <label for="email" class="sr-only">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+        </div>
+      </form>
+      <button type="submit" class="btn btn-danger">Subscribe Us</button>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="footerr mt-5">
+  <div class="">
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-between p-4" style="background-color: #6351ce">
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">FoodPoint</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>Most Popular Restaurant of Purnea Bihar India across 10000+ satisfied Customer
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Top Food</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                <a href="#blogsec" class="text-white text-decoration-none">Burger</a>
+              </p>
+              <p>
+                <a href="#blogsec" class="text-white text-decoration-none">Chicken Fry</a>
+              </p>
+              <p>
+                <a href="#blogsec" class="text-white text-decoration-none">Biryani</a>
+              </p>
+              <p>
+                <a href="#blogsec" class="text-white text-decoration-none">Coffee</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                <a href="#aboutus" class="text-white text-decoration-none">About Us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white text-decoration-none">Franchise</a>
+              </p>
+              <p>
+                <a href="#faqsec" class="text-white text-decoration-none">FAQ</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white text-decoration-none">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p><i class="fas fa-home mr-3"></i> Bihar, Pur 854301, In</p>
+              <p><i class="fas fa-envelope mr-3"></i> sabaraz6786@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 91 954 613 8163</p>
+              <p><i class="fas fa-print mr-3"></i> + 91 954 613 8163</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright:
+        <a class="text-white text-decoration-none" href="tel:+91 9546138163:">CSBS Pvt. Ltd. (9546138163)</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script>
+  // Add this script to handle hiding the FAQs on click
+  $(document).ready(function() {
+    $('.card-header button').click(function() {
+      $(this).closest('.card').siblings().find('.collapse').collapse('hide');
+    });
+  });
+</script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
